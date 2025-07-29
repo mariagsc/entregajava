@@ -1,4 +1,4 @@
- const productos = [
+const productos = [
   { nombre: "PUMA CLASICA",
      precio: 44000, 
      img: "../javatarea/img/Puma37.webp" },

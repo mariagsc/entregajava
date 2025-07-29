@@ -1,3 +1,4 @@
+
 const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 function mostrarProductos() {
@@ -88,6 +89,4 @@ if (btnAbrirCarrito && panelCarrito && btnCerrar) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  mostrarProductos();
-  mostrarCarrito();
-});
+  mostrarProductos();  mostrarCarrito();});
